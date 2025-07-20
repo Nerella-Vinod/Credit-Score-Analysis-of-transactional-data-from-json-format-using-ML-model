@@ -2,6 +2,9 @@
 
 ## Overview
 This repository contains a machine learning solution to assign credit scores (0–1000) to wallets interacting with the Aave V2 protocol on the Polygon network. Scores reflect wallet reliability, with higher scores for responsible users (frequent deposits/repayments, low risk) and lower scores for risky or bot-like behavior (high borrowing, liquidations).
+## Dataset Link
+Here is the transactional data in json format.
+https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view
 
 ## Methodology
 - **Data**: JSON file with transaction records, including wallet address, action (`deposit`, `borrow`, `repay`, `liquidationcall`), amount, USD price, and timestamp.
